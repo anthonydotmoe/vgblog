@@ -1,0 +1,18 @@
+[package]
+name = "vgblog"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "show_games"
+doc = false
+
+[lib]
+doc = false
+
+[dependencies]
+thiserror = "1.0"
+rocket = "0.5.1"
+diesel = { version = "2.2.0", features = ["sqlite", "chrono"] }
+dotenvy = "0.15"
+chrono = "0.4.38"
