@@ -14,8 +14,9 @@ fn main() {
     println!("Displaying {} games", results.len());
 
     for game in results {
+        println!("\n--------------");
         println!("{}", game.title);
-        println!("{:?}", game.genre);
+        println!("{:?}", game.note);
         println!("--------------\n");
     }
 }

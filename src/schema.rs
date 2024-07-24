@@ -21,9 +21,7 @@ diesel::table! {
     games (id) {
         id -> Integer,
         title -> Text,
-        release_date -> Nullable<Date>,
-        genre -> Nullable<Text>,
-        platform -> Nullable<Text>,
+        note -> Nullable<Text>,
     }
 }
 
